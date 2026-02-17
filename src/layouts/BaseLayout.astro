@@ -1,0 +1,82 @@
+---
+import "@/styles/global.css";
+import "@/styles/theme.css";
+
+import Header from "@/layouts/Header.astro";
+import Footer from "@/layouts/Footer.astro";
+import { siteConfig } from "@/data/contentCollectionDataFetching";
+
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+
+const siteName = siteConfig?.data.general.name ?? "Church Website";
+const colorScheme = siteConfig?.data.theme?.colorScheme ?? "auto";
+const metaTitle = pageTitle ? `${pageTitle} | ${siteName}` : siteName;
+const metaDescription =
+  siteConfig?.data.general.description ?? "Church website built with Astro.";
+---
+
+<script is:inline define:vars={{ colorScheme }}>
+  const getThemePreference = () => {
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  };
+
+  const isDark =
+    colorScheme === "dark" ||
+    (colorScheme === "auto" && getThemePreference() === "dark");
+  document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+</script>
+
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={metaDescription} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml" href={"/favicon.svg"} />
+
+    <!-- TITLE -->
+    <title>{metaTitle}</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- CRITICAL CSS (ABOVE-THE-FOLD) -->
+    <style>
+      body {
+        margin: 0;
+      }
+      main,
+      .hero {
+        min-height: calc(100vh - 6.5rem);
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
