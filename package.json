@@ -1,6 +1,7 @@
 {
   "name": "thirdbaptist.net",
   "version": "1.0.0",
+  "packageManager": "pnpm@11.7.0",
   "type": "module",
   "scripts": {
     "astro": "astro",
