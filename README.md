@@ -21,6 +21,8 @@ The static site is generated into `dist/`.
 
 This repo is intended for Cloudflare Pages Git integration. See `CLOUDFLARE_PAGES.md` for the build settings.
 
+Temporary preview: `https://thirdbaptist-net-preview.pages.dev/`
+
 ## Content
 
 - Site-wide settings: `src/content-collections/site.config.json`
