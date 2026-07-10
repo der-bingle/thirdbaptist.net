@@ -27,8 +27,5 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# Local Netlify folder
-.netlify
-
 # Auto-generated theme file
 theme.css

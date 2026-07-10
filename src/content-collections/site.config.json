@@ -1,66 +1,67 @@
 {
   "general": {
-    "name": "Astro Church",
-    "description": "We exist to be and make eternally joyful disciples of Jesus Christ. Sojourners is a baptistic, reformed, non-denominational church in Albert Lea, Minnesota. Join us Sundays at 10am in the Skyline Plaza!",
-    "youtube": "https://www.youtube.com/@CodinginPublic"
+    "name": "Third Baptist West Frankfort",
+    "description": "Third Baptist West Frankfort is a church family of regular people whose lives are being transformed more and more every day by the Good News of Jesus Christ. Join us for Sunday School at 9:30am and worship at 10:40am in West Frankfort, Illinois.",
+    "logo": "src/assets/third-baptist-logo.webp",
+    "youtube": "https://www.youtube.com/@ThirdBaptistWestFrankfort"
   },
   "header": {
     "displayTitle": true,
-    "displayLogo": false
+    "displayLogo": true
   },
   "body": {
     "hero": {
-      "text": "<span class='opacity-40'>Free, open-source template</span><span class='text-primary'> for building great church websites</span><span class='opacity-40'> with Astro</span>",
-      "bgImage": "src/assets/hero-bg.webp"
+      "text": "<span class='opacity-45'>A church family in West Frankfort</span><span class='text-primary'> being transformed by the Good News of Jesus Christ</span>",
+      "bgImage": "/church-spring.jpg"
     },
     "cta": {
-      "text": "10 am Sundays | Click here for livestream",
-      "link": "https://www.youtube.com/watch?v=eQXG75XirdE"
+      "text": "Sunday School 9:30am | Worship 10:40am",
+      "link": "/life-together/sundays"
     }
   },
   "footer": {
     "left": {
       "sections": [
         {
-          "heading": "Sundays at 10am",
-          "description": "<address>3321 Stephens Hill Ln<br />Antioch, TN 37013</address>"
+          "heading": "Sundays",
+          "description": "Sunday School at 9:30am<br />Worship at 10:40am"
         },
         {
-          "heading": "Contact Us",
-          "description": "<a href='mailto:notarealemail@astro.church'>notarealemail@astro.church</a><br />(123)456-7899"
+          "heading": "Address",
+          "description": "<address>1100 W 6th St<br />West Frankfort, IL 62896</address>"
+        },
+        {
+          "heading": "Contact",
+          "description": "<a href='mailto:admin@thirdbaptist.net'>admin@thirdbaptist.net</a><br /><a href='https://www.facebook.com/thirdBaptistWestFrankfort/'>Message us on Facebook</a>"
         }
       ],
       "social": [
         {
           "name": "Facebook",
           "icon": "simple-icons:facebook",
-          "link": "https://www.facebook.com/tctnetwork"
+          "link": "https://www.facebook.com/thirdBaptistWestFrankfort/"
         },
         {
           "name": "Youtube",
           "icon": "simple-icons:youtube",
-          "link": "https://www.youtube.com/@CodinginPublic"
-        },
-        {
-          "name": "Spotify",
-          "icon": "simple-icons:spotify",
-          "link": "https://open.spotify.com/artist/16QSVsPKl743hu4U5C18R8?si=Cl-bBnERRfCzrMZVwbul9w"
+          "link": "https://www.youtube.com/@ThirdBaptistWestFrankfort"
         }
       ]
     },
     "form": {
-      "isActive": true,
-      "heading": "Weekly Bulletin",
-      "description": "Sign up to stay informed and connected to Astro Church weekly happenings."
+      "isActive": false,
+      "heading": "Stay Connected",
+      "description": "Newsletter signup can be enabled when an email provider is connected."
     },
     "give": {
-      "isActive": true,
-      "heading": "Give to Astro Church",
-      "description": "Click below to set up a one time or recurring gift to Astro Church.",
-      "link": "https://get.tithe.ly/"
+      "isActive": false,
+      "heading": "Give to Third Baptist",
+      "description": "Online giving can be added when the giving provider URL is available.",
+      "link": ""
     }
   },
   "theme": {
-    "colorScheme": "auto"
+    "colorScheme": "auto",
+    "customCSS": ":root {\n  --background: oklch(0.985 0.006 86);\n  --foreground: oklch(0.23 0.023 248);\n  --card: oklch(0.974 0.008 86);\n  --card-foreground: oklch(0.23 0.023 248);\n  --popover: oklch(0.974 0.008 86);\n  --popover-foreground: oklch(0.23 0.023 248);\n  --primary: oklch(0.71 0.17 80);\n  --primary-foreground: oklch(0.16 0.018 248);\n  --secondary: oklch(0.28 0.041 248);\n  --secondary-foreground: oklch(0.97 0.006 86);\n  --muted: oklch(0.91 0.013 86);\n  --muted-foreground: oklch(0.44 0.026 248);\n  --accent: oklch(0.68 0.12 176);\n  --accent-foreground: oklch(0.14 0.018 248);\n  --destructive: oklch(0.56 0.19 28);\n  --destructive-foreground: oklch(0.98 0.006 86);\n  --border: oklch(0.83 0.018 86);\n  --input: oklch(0.83 0.018 86);\n  --ring: oklch(0.71 0.17 80);\n  --chart-1: oklch(0.71 0.17 80);\n  --chart-2: oklch(0.68 0.12 176);\n  --chart-3: oklch(0.48 0.09 248);\n  --chart-4: oklch(0.72 0.09 34);\n  --chart-5: oklch(0.54 0.08 300);\n  --sidebar: oklch(0.93 0.012 86);\n  --sidebar-foreground: oklch(0.23 0.023 248);\n  --sidebar-primary: oklch(0.71 0.17 80);\n  --sidebar-primary-foreground: oklch(0.16 0.018 248);\n  --sidebar-accent: oklch(0.68 0.12 176);\n  --sidebar-accent-foreground: oklch(0.14 0.018 248);\n  --sidebar-border: oklch(0.83 0.018 86);\n  --sidebar-ring: oklch(0.71 0.17 80);\n}\n\n.dark {\n  --background: oklch(0.17 0.018 248);\n  --foreground: oklch(0.96 0.006 86);\n  --card: oklch(0.21 0.025 248);\n  --card-foreground: oklch(0.96 0.006 86);\n  --popover: oklch(0.21 0.025 248);\n  --popover-foreground: oklch(0.96 0.006 86);\n  --primary: oklch(0.76 0.16 80);\n  --primary-foreground: oklch(0.15 0.018 248);\n  --secondary: oklch(0.31 0.044 248);\n  --secondary-foreground: oklch(0.96 0.006 86);\n  --muted: oklch(0.27 0.032 248);\n  --muted-foreground: oklch(0.76 0.015 86);\n  --accent: oklch(0.7 0.11 176);\n  --accent-foreground: oklch(0.13 0.018 248);\n  --destructive: oklch(0.62 0.19 28);\n  --destructive-foreground: oklch(0.98 0.006 86);\n  --border: oklch(0.35 0.032 248);\n  --input: oklch(0.35 0.032 248);\n  --ring: oklch(0.76 0.16 80);\n  --sidebar: oklch(0.21 0.025 248);\n  --sidebar-foreground: oklch(0.96 0.006 86);\n  --sidebar-primary: oklch(0.76 0.16 80);\n  --sidebar-primary-foreground: oklch(0.15 0.018 248);\n  --sidebar-accent: oklch(0.7 0.11 176);\n  --sidebar-accent-foreground: oklch(0.13 0.018 248);\n  --sidebar-border: oklch(0.35 0.032 248);\n  --sidebar-ring: oklch(0.76 0.16 80);\n}"
   }
 }
