@@ -2,7 +2,7 @@
   "general": {
     "name": "Third Baptist West Frankfort",
     "description": "Third Baptist West Frankfort is a church family of regular people whose lives are being transformed more and more every day by the Good News of Jesus Christ. Join us for Sunday School at 9:30am and worship at 10:40am in West Frankfort, Illinois.",
-    "logo": "src/assets/third-baptist-logo.webp",
+    "logo": "src/assets/third-baptist-logo-transparent.webp",
     "youtube": "https://www.youtube.com/@ThirdBaptistWestFrankfort"
   },
   "header": {
@@ -11,7 +11,7 @@
   },
   "body": {
     "hero": {
-      "text": "<span class='opacity-45'>A church family in West Frankfort learning to </span><span class='text-primary'>follow Jesus</span><span class='opacity-45'> and </span><span class='text-primary'>live sent</span><span class='opacity-45'> together</span>",
+      "text": "<span class='opacity-45'>A family of disciples learning to </span><span class='text-primary'>follow Jesus</span><span class='opacity-45'> and </span><span class='text-primary'>live sent</span><span class='opacity-45'> in West Frankfort</span>",
       "bgImage": "/church-spring.jpg"
     },
     "cta": {
