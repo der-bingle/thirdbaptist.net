@@ -11,7 +11,7 @@
   },
   "body": {
     "hero": {
-      "text": "<span class='opacity-45'>A church family in West Frankfort</span><span class='text-primary'> being transformed by the Good News of Jesus Christ</span>",
+      "text": "<span class='opacity-45'>A church family in West Frankfort learning to </span><span class='text-primary'>follow Jesus</span><span class='opacity-45'> and </span><span class='text-primary'>live sent</span><span class='opacity-45'> together</span>",
       "bgImage": "/church-spring.jpg"
     },
     "cta": {
