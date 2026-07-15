@@ -6,12 +6,14 @@ order: 2
 
 > Pay careful attention to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to care for the church of God, which he obtained with his own blood. - Acts 20:28
 
-Third Baptist West Frankfort is served by pastor Luke Wilson, who has served the church since August 2018.
-
 ## Pastor
 
 ### Luke Wilson
 
-Luke is a Jesus-worshipping husband, daddy, and pastor. His aim in ministry is to help regular people hear and trust the Good News of Jesus Christ, grow together as disciples, and live faithfully in West Frankfort and beyond.
+<img src="/luke-wilson.jpg" alt="Luke Wilson" width="320" height="320" style="max-width: 18rem; width: 100%; height: auto; border-radius: 0.5rem;" />
+
+Luke has served as Lead Pastor of Third Baptist Church in West Frankfort since August 2018. He loves opening God's Word week by week and helping people see how the truth of Scripture shapes everyday life. His hope is that Third Baptist would be a church where people are growing in Christ, caring for one another, and finding hope in the gospel.
+
+Luke and Kay are raising their four children in West Frankfort, where there's usually a sermon in progress, weather radar open on the computer, fountain pen ink on his fingers, and Bluey on the TV if his daughters have anything to do with it. He enjoys reading, good typography, exploring new technology, cheering on the Colts, and never quite giving up on finding a better way to organize information.
 
 You can reach Luke at [luke@thirdbaptist.net](mailto:luke@thirdbaptist.net).

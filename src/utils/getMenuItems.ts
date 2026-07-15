@@ -104,11 +104,13 @@ const pages = await getCollection("pages");
 validateUniquePageTypes(pages, ["blog", "events", "sermons"]);
 
 export const menu = buildMenu(
-  pages.map((p) => ({
-    id: p.id,
-    filePath: p.filePath,
-    label: p.data.title,
-    order: p.data.order,
-    type: p.data.type,
-  })),
+  pages
+    .filter((p) => p.data.navigation !== false)
+    .map((p) => ({
+      id: p.id,
+      filePath: p.filePath,
+      label: p.data.title,
+      order: p.data.order,
+      type: p.data.type,
+    })),
 );

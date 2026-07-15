@@ -88,6 +88,18 @@ const siteConfig = defineCollection({
             description: z.string().optional(),
           })
           .optional(),
+        map: z
+          .object({
+            isActive: z.boolean(),
+            heading: z.string().optional(),
+            description: z.string().optional(),
+            image: z.string(),
+            imageAlt: z.string().optional(),
+            link: z.string(),
+            buttonText: z.string().optional(),
+            attribution: z.string().optional(),
+          })
+          .optional(),
         give: z
           .object({
             isActive: z.boolean(),
@@ -229,6 +241,7 @@ const pagesCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),
+    navigation: z.boolean().optional(),
     type: z.enum(["blog", "events", "sermons"]).optional(),
   }),
 });

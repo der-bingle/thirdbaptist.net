@@ -7,14 +7,23 @@ import { buttonVariants } from "@/components/ui/button";
 
 const left = siteConfig?.data.footer?.left;
 const form = siteConfig?.data.footer?.form;
+const map = siteConfig?.data.footer?.map;
 const give = siteConfig?.data.footer?.give;
 
 const RESEND_SEGMENT_ID = import.meta.env.RESEND_SEGMENT_ID;
 const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
+const activeAsideCount =
+  Number(Boolean(form?.isActive)) +
+  Number(Boolean(map?.isActive)) +
+  Number(Boolean(give?.isActive));
+const footerGridClass =
+  activeAsideCount >= 2
+    ? "grid gap-8 md:grid-cols-2 lg:grid-cols-3"
+    : "grid gap-8 md:grid-cols-2";
 ---
 
 <footer class="bg-secondary text-secondary-foreground layout-base py-8">
-  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+  <div class={footerGridClass}>
     <section class="flex flex-col gap-8">
       <h2 class="sr-only">Address & Contact Info</h2>
       {
@@ -66,6 +75,54 @@ const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
     }
 
     {
+      map?.isActive && (
+        <section class="flex flex-col gap-4">
+          <div class="flex flex-col gap-2">
+            <StyledText as="h2" variant="heading" set:html={map.heading} />
+            <div set:html={map.description} />
+          </div>
+          <a
+            href={map.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={map.buttonText ?? "Open map"}
+            class="group border-ring bg-muted focus-visible:border-ring focus-visible:ring-ring block overflow-hidden rounded-md border shadow-xs focus-visible:ring-2"
+          >
+            <img
+              src={map.image}
+              alt={map.imageAlt ?? ""}
+              width="900"
+              height="480"
+              loading="lazy"
+              class="aspect-[15/8] max-h-64 min-h-48 w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+            />
+          </a>
+          {map.attribution && (
+            <p class="text-secondary-foreground/75 text-xs">
+              <a
+                href="https://www.openstreetmap.org/copyright"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline-offset-4 hover:underline"
+              >
+                {map.attribution}
+              </a>
+            </p>
+          )}
+          <StyledText
+            as={"a"}
+            target="_blank"
+            rel="noopener noreferrer"
+            href={map.link}
+            className={buttonVariants({ variant: "footer-button" })}
+          >
+            {map.buttonText ?? "Open map"}
+          </StyledText>
+        </section>
+      )
+    }
+
+    {
       give?.isActive && (
         <section class="flex flex-col gap-4">
           <div class="flex flex-col gap-2">
@@ -87,4 +144,15 @@ const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
       )
     }
   </div>
+  <nav
+    aria-label="Legal"
+    class="border-secondary-foreground/15 text-secondary-foreground/70 mt-8 flex justify-end gap-4 border-t pt-4 text-xs"
+  >
+    <a class="underline-offset-4 hover:underline" href="/privacy-policy">
+      Privacy Policy
+    </a>
+    <a class="underline-offset-4 hover:underline" href="/terms-of-service">
+      Terms of Service
+    </a>
+  </nav>
 </footer>

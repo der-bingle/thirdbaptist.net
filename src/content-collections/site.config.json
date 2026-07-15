@@ -53,6 +53,16 @@
       "heading": "Stay Connected",
       "description": "Newsletter signup can be enabled when an email provider is connected."
     },
+    "map": {
+      "isActive": true,
+      "heading": "Visit Us",
+      "description": "1100 W 6th St<br />West Frankfort, IL 62896",
+      "image": "/third-baptist-map.png",
+      "imageAlt": "Map showing Third Baptist West Frankfort near West 6th Street and North Van Buren Street.",
+      "link": "https://www.openstreetmap.org/?mlat=37.9045721&mlon=-88.9413854#map=16/37.9045721/-88.9413854",
+      "buttonText": "Open in OpenStreetMap",
+      "attribution": "Map data © OpenStreetMap contributors"
+    },
     "give": {
       "isActive": false,
       "heading": "Give to Third Baptist",

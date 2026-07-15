@@ -12,13 +12,24 @@ This site is configured as a static Astro build for Cloudflare Pages.
 
 The repo also includes `wrangler.toml` with `pages_build_output_dir = "./dist"` so Wrangler/Pages tooling can identify the static output directory.
 
+## Production Pages Project
+
+Production project:
+
+- Project: `thirdbaptist-net`
+- URL: `https://thirdbaptist-net.pages.dev/`
+- GitHub repository: `der-bingle/thirdbaptist.net`
+- Production branch: `main`
+
+The production project is connected to GitHub. Cloudflare builds and deploys automatically whenever changes are merged or pushed to `main`.
+
 ## Automatic Deploys
 
 Use the Cloudflare Pages Git integration and connect the GitHub repository. Cloudflare will build and deploy automatically whenever changes are merged or pushed to the production branch.
 
 Preview deployments can remain enabled for pull request branches.
 
-Without Cloudflare account credentials, the remaining manual step is:
+If recreating the project later:
 
 1. In Cloudflare, go to Workers & Pages.
 2. Create a Pages application and choose the GitHub integration.
@@ -44,15 +55,25 @@ Keep this preview project separate from the final Git-integrated project. The fi
 
 ## Custom Domain
 
-The current registrar/DNS for `thirdbaptist.net` is AWS Route 53. Do not add the production custom domain until DNS is ready to move to Cloudflare.
+DNS for `thirdbaptist.net` is managed by Cloudflare. The Pages custom domains are attached to the production `thirdbaptist-net` project:
 
-When ready to go live:
+- `thirdbaptist.net`
+- `www.thirdbaptist.net`
 
-1. Add `thirdbaptist.net` to Cloudflare.
-2. Review and preserve any needed Route 53 DNS records.
-3. Change the domain's nameservers at the registrar to the Cloudflare nameservers.
-4. Add `thirdbaptist.net` and `www.thirdbaptist.net` as custom domains on the final Git-integrated Pages project.
-5. Verify SSL and redirects before announcing the new site.
+The required Cloudflare DNS records are:
+
+| Type | Name | Target |
+| --- | --- | --- |
+| CNAME | `@` | `thirdbaptist-net.pages.dev` |
+| CNAME | `www` | `thirdbaptist-net.pages.dev` |
+
+Cloudflare will flatten the apex CNAME for `thirdbaptist.net`.
+
+When verifying go-live:
+
+1. Confirm both custom domains show `active` in the Pages project.
+2. Confirm `https://thirdbaptist.net/` and `https://www.thirdbaptist.net/` resolve and return the site.
+3. Verify SSL and redirects before announcing the new site.
 
 ## Site URL
 
