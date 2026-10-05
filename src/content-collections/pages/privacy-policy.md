@@ -5,9 +5,9 @@ navigation: false
 
 # Privacy Policy
 
-**Effective date: July 15, 2026**
+**Effective date: October 5, 2026**
 
-Third Baptist Church of West Frankfort, Illinois, also known as Third Baptist West Frankfort ("Third Baptist," "we," "us," or "our"), respects your privacy. This policy explains what information we collect, how we use it, and the choices available to you when you use our website or participate in our text messaging program.
+Third Baptist Church of West Frankfort, IL, also known as Third Baptist West Frankfort ("Third Baptist," "we," "us," or "our"), respects your privacy. This policy explains what information we collect, how we use it, and the choices available to you when you use our website or participate in our text messaging program.
 
 ## Information We Collect
 
@@ -22,7 +22,7 @@ Our website and hosting providers may also collect limited technical information
 We use information to:
 
 - Respond to questions and requests;
-- Communicate about church services, events, schedule changes, prayer needs, and devotional encouragement;
+- Communicate about church services, events, schedule changes, and prayer needs;
 - Operate and maintain our website and text messaging program;
 - Honor opt-in, opt-out, and help requests;
 - Protect our systems, users, and church community; and
@@ -30,11 +30,9 @@ We use information to:
 
 ## Text Messaging Privacy
 
-You may join the Third Baptist West Frankfort text messaging program only by texting **START** to **618-933-8228**. By doing so, you agree to receive recurring informational text messages from Third Baptist West Frankfort, including church announcements, prayer updates, schedule changes, and devotional messages. Message frequency varies, up to 4 messages per month. Message and data rates may apply. Reply **HELP** for help or **STOP** to unsubscribe at any time. Consent is not a condition of making a purchase or donation, becoming a member, or participating in church activities.
+You may join the Third Baptist West Frankfort text messaging program only by texting **START** to **618-923-9823**. By doing so, you agree to receive recurring informational text messages from Third Baptist West Frankfort, including church announcements, prayer updates, service and event reminders, and schedule or weather changes. Message frequency may vary. Message and data rates may apply. Reply **HELP** for help or **STOP** to unsubscribe at any time. Consent is not a condition of making a purchase or donation, becoming a member, or participating in church activities. See our [Text Updates page](/text-updates) for the program's sign-up details.
 
-We do not sell, rent, or share mobile phone numbers or text messaging opt-in information for marketing or promotional purposes. Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information won’t be shared with any third parties.
-
-We may use service providers acting on our behalf to deliver and support the messaging program. Those providers may process information only as needed to provide services to us and must protect it appropriately.
+We do not sell or share mobile phone numbers or text messaging opt-in and consent information with third parties or affiliates for their own promotional or marketing purposes. We may share this information with service providers that process it solely on our behalf to deliver and support the messaging program. Those providers may not use it for their own promotional or marketing purposes and must protect it appropriately.
 
 ## How We Share Other Information
 
@@ -59,9 +57,11 @@ We may update this policy from time to time. Changes will be posted on this page
 
 ## Contact Us
 
-Third Baptist Church  
-1100 W 6th St  
-West Frankfort, IL 62896  
-[admin@thirdbaptist.net](mailto:admin@thirdbaptist.net)
+<p>
+Third Baptist Church of West Frankfort, IL<br />
+1100 W 6th St<br />
+West Frankfort, IL 62896<br />
+<a href="mailto:admin@thirdbaptist.net">admin@thirdbaptist.net</a>
+</p>
 
 For terms governing our website and text messaging program, see our [Terms of Service](/terms-of-service).

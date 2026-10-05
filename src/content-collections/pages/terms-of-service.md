@@ -5,21 +5,21 @@ navigation: false
 
 # Terms of Service
 
-**Effective date: July 15, 2026**
+**Effective date: October 5, 2026**
 
 These Terms of Service govern your use of the Third Baptist West Frankfort website and participation in our text messaging program. By using the website or enrolling in the messaging program, you agree to these terms.
 
 ## Text Messaging Program
 
-The **Third Baptist West Frankfort Church Updates** program provides recurring informational text messages from Third Baptist Church of West Frankfort, Illinois. Messages may include church announcements, prayer updates, service or event reminders, schedule changes, weather-related cancellations, and short devotional encouragements. The program does not send commercial offers.
+The **Third Baptist West Frankfort** text messaging program provides recurring informational text messages from Third Baptist Church of West Frankfort, IL. Messages may include church announcements, prayer updates, service and event reminders, and schedule or weather changes. The program does not send commercial offers.
 
 ### How to Opt In
 
-To enroll, text **START** to **618-933-8228**. By sending START, you expressly consent to receive recurring automated informational text messages from Third Baptist West Frankfort at the mobile number you use to opt in. Consent is not a condition of making a purchase or donation, becoming a member, or participating in church activities.
+To enroll, text **START** to **618-923-9823**. By sending START, you expressly consent to receive recurring informational text messages from Third Baptist West Frankfort at the mobile number you use to opt in. Consent is not a condition of making a purchase or donation, becoming a member, or participating in church activities. See our [Text Updates page](/text-updates) for the complete call to action and program details.
 
 ### Message Frequency and Charges
 
-Message frequency varies, up to 4 messages per month. Message and data rates may apply. Your wireless carrier's rates and terms govern charges associated with text messages.
+Message frequency may vary. Message and data rates may apply. Your wireless carrier's rates and terms govern charges associated with text messages.
 
 ### Opt Out and Help
 
@@ -59,7 +59,9 @@ These terms are governed by the laws of the State of Illinois, without regard to
 
 ## Contact Us
 
-Third Baptist Church  
-1100 W 6th St  
-West Frankfort, IL 62896  
-[admin@thirdbaptist.net](mailto:admin@thirdbaptist.net)
+<p>
+Third Baptist Church of West Frankfort, IL<br />
+1100 W 6th St<br />
+West Frankfort, IL 62896<br />
+<a href="mailto:admin@thirdbaptist.net">admin@thirdbaptist.net</a>
+</p>
