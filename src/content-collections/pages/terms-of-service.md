@@ -15,7 +15,7 @@ The **Third Baptist West Frankfort** text messaging program provides recurring i
 
 ### How to Opt In
 
-To enroll, text **START** to **618-923-9823**. By sending START, you expressly consent to receive recurring informational text messages from Third Baptist West Frankfort at the mobile number you use to opt in. Consent is not a condition of making a purchase or donation, becoming a member, or participating in church activities. See our [Text Updates page](/text-updates) for the complete call to action and program details.
+To enroll, text **START** to **618-923-9823**. By sending START, you expressly consent to receive recurring informational text messages from Third Baptist West Frankfort at the mobile number you use to opt in. Signing up for text updates is optional and is not required for church membership or participation in church activities. See our [Text Updates page](/text-updates) for the complete call to action and program details.
 
 ### Message Frequency and Charges
 
